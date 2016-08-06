@@ -3,4 +3,4 @@ node_js:
   - "0.12"
 before_install:
   - "curl https://install.meteor.com/ | sh"
-script: cd bigbluebutton-html5 && npm install && ./start.sh
+script: cd bigbluebutton-html5 && npm install && sudo apt-get install nodejs-legacy
